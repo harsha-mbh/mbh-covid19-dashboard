@@ -1,0 +1,47 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #161625;
+  min-height: 100vh;
+}
+.faq-details-container {
+  display: flex;
+  width: 90%;
+  align-self: center;
+  flex-direction: column;
+}
+.content {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.about-heading {
+  color: #f8fafc;
+  font-size: 48px;
+}
+.about-update {
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-description {
+  color: #e2e8f0;
+  font-size: 24px;
+}
+.faq-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .about-heading {
+    font-size: 24px;
+  }
+  .about-update {
+    font-size: 14px;
+  }
+  .about-description {
+    font-size: 16px;
+  }
+}
